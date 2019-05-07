@@ -120,12 +120,23 @@ $t13 = $tags[13];
             <a href="#">GitHub</a><br>
         </div>
 
-        <div class="w3-third w3-serif">
-              <span class="w3-tag w3-black w3-margin-bottom"><?php echo $t0; ?></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $t1; ?></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $t2; ?></span>
+         <div class="w3-third w3-serif">
+                <span class="w3-tag w3-black w3-margin-bottom"><?php echo $tags[0]; ?></span>
+                <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $tags[0]; ?></span>
+                <?php 
+                 for ($j = 1; $j<$totalTags; $j++){
+                     ?>
+                     <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $tags[$j]; ?></span>
+                <?php
+                 }
+                ?>
+                
+                <!-- 
                 <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $t3; ?></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $t4; ?></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $t5; ?></span>
                 <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $t6; ?></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $t7; ?></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $t8; ?></span>
                 <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $t9; ?></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $t10; ?></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $t11; ?></span>
                 <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $t12; ?></span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"><?php echo $t13; ?></span>
+                -->
             </p>
         </div>
     </footer>
