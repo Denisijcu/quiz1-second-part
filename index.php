@@ -3,20 +3,6 @@ include_once 'data.php';
 
 $maxFoods = count($food);
 $totalTags = count($tags);
-$t0 = $tags[0];
-$t1 = $tags[1];
-$t2 = $tags[2];
-$t3 = $tags[3];
-$t4 = $tags[4];
-$t5 = $tags[5];
-$t6 = $tags[6];
-$t7 = $tags[7];
-$t8 = $tags[8];
-$t9 = $tags[9];
-$t10 = $tags[10];
-$t11 = $tags[11];
-$t12 = $tags[12];
-$t13 = $tags[13];
 
 
 ?>
